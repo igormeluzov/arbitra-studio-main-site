@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 420 77">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: none;
+      }
+
+      .cls-2 {
+        filter: none;
+      }
+
+      .cls-3 {
+        filter: none;
+      }
+
+      .cls-4 {
+        filter: none;
+      }
+
+      .cls-5 {
+        fill: #00f2fe;
+      }
+
+      .cls-6 {
+        filter: none;
+      }
+
+      .cls-7 {
+        filter: none;
+      }
+
+      .cls-8 {
+        filter: none;
+      }
+    </style>
+    <filter id="outer-glow-1" x="275" y="0" width="84" height="77" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="6"/>
+      <feFlood flood-color="#36e8ff" flood-opacity=".3"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="outer-glow-2" x="64" y="0" width="84" height="77" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-2" stdDeviation="6"/>
+      <feFlood flood-color="#36e8ff" flood-opacity=".3"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="outer-glow-3" x="125" y="0" width="80" height="77" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-3" stdDeviation="6"/>
+      <feFlood flood-color="#36e8ff" flood-opacity=".3"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="outer-glow-4" x="189" y="0" width="46" height="77" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-4" stdDeviation="6"/>
+      <feFlood flood-color="#36e8ff" flood-opacity=".3"/>
+      <feComposite in2="blur-4" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="outer-glow-5" x="214" y="0" width="83" height="77" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-5" stdDeviation="6"/>
+      <feFlood flood-color="#36e8ff" flood-opacity=".3"/>
+      <feComposite in2="blur-5" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="outer-glow-6" x="0" y="0" width="83" height="77" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-6" stdDeviation="6"/>
+      <feFlood flood-color="#36e8ff" flood-opacity=".3"/>
+      <feComposite in2="blur-6" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="outer-glow-7" x="337" y="0" width="83" height="77" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-7" stdDeviation="6"/>
+      <feFlood flood-color="#36e8ff" flood-opacity=".3"/>
+      <feComposite in2="blur-7" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Trace">
+    <g id="Dark">
+      <g id="Wordmark">
+        <g class="cls-4">
+          <path class="cls-5" d="M340.54,58.09h-13.3l-16.04-14.8h-2.04v-6.72h14.08c1.6,0,2.72-.23,3.3-.68s.88-1.28.88-2.43v-4.71c0-1.14-.29-1.95-.88-2.4-.59-.46-1.7-.68-3.3-.68h-20.83v32.43h-9.12V18.87h34.05c3.16,0,5.46.61,6.88,1.81,1.42,1.2,2.13,3.13,2.13,5.8v9.19c0,2.64-.71,4.57-2.13,5.79-1.42,1.22-3.72,1.82-6.88,1.82h-5.2l18.39,14.8Z"/>
+        </g>
+        <g class="cls-1">
+          <path class="cls-5" d="M129.56,58.09h-13.3l-16.04-14.8h-2.04v-6.72h14.08c1.6,0,2.72-.23,3.3-.68s.88-1.28.88-2.43v-4.71c0-1.14-.29-1.95-.88-2.4-.59-.46-1.7-.68-3.3-.68h-20.83v32.43h-9.12V18.87h34.05c3.16,0,5.46.61,6.88,1.81,1.42,1.2,2.13,3.13,2.13,5.8v9.19c0,2.64-.71,4.57-2.13,5.79-1.42,1.22-3.72,1.82-6.88,1.82h-5.2l18.39,14.8Z"/>
+        </g>
+        <g class="cls-7">
+          <path class="cls-5" d="M143.61,58.09V18.88h34.12c3.14,0,5.41.61,6.82,1.82,1.41,1.21,2.11,3.14,2.11,5.79v4.79c0,1.88-.59,3.38-1.77,4.51-1.18,1.13-2.88,1.83-5.08,2.1,2.28.3,4.05,1.1,5.29,2.41,1.24,1.31,1.86,3.02,1.86,5.12v5.01c0,2.6-.97,4.53-2.9,5.79-1.93,1.26-4.87,1.89-8.81,1.89h-31.64ZM173.85,25.26h-21.13v9.35h21.13c1.61,0,2.72-.21,3.33-.63.61-.42.92-1.15.92-2.19v-3.71c0-1.01-.31-1.74-.92-2.17-.62-.43-1.73-.65-3.33-.65ZM173.85,41.06h-21.13v9.98h21.13c1.76,0,2.94-.26,3.56-.78.61-.52.92-1.43.92-2.75v-2.97c0-1.31-.31-2.22-.92-2.73-.62-.51-1.8-.76-3.56-.76Z"/>
+        </g>
+        <g class="cls-8">
+          <path class="cls-5" d="M207.01,54.01v-31.05c0-2.25,1.86-4.08,4.14-4.08h.98c2.29,0,4.14,1.83,4.14,4.08v31.05c0,2.25-1.86,4.08-4.14,4.08h-.98c-2.29,0-4.14-1.83-4.14-4.08Z"/>
+        </g>
+        <g class="cls-3">
+          <path class="cls-5" d="M260.39,25.89v32.2h-9.27V25.89h-18.27v-7.01h45.87v7.01h-18.34Z"/>
+        </g>
+        <g class="cls-2">
+          <path class="cls-5" d="M45.42,18.87h-7.62l-19.21,39.22h7.87l3.96-8.57,3.37-7.08,7.55-15.96,7.31,15.96,3.28,7.08,4.08,8.57h8.87l-19.46-39.22Z"/>
+        </g>
+        <g class="cls-6">
+          <path class="cls-5" d="M381.94,18.87h-7.62l-19.21,39.22h7.87l3.96-8.57,3.37-7.08,7.55-15.96,7.31,15.96,3.28,7.08,4.08,8.57h8.87l-19.46-39.22Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
