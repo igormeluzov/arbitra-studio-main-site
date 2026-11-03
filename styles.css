@@ -97,10 +97,10 @@
 .direct-contacts{display:flex;flex-wrap:wrap;gap:8px 20px;font:500 11px/1.7 var(--mono);color:#8be8f1}
 .direct-contacts a:hover{color:var(--cyan);text-decoration:underline;text-underline-offset:4px}
 .header-contacts .direct-contacts{flex-direction:column;align-items:flex-end;gap:2px}
-.header nav .mobile-contact{display:none}
+.header nav .mobile-partnership{display:none}
 .footer{flex-wrap:wrap;row-gap:18px}
 .footer .footer-legal{flex-basis:100%;font:400 12px/1.7 var(--sans);color:#b3c2d6;order:3;margin:0}
-@media(max-width:640px){.header-contacts{display:none}.header nav .mobile-contact{display:block;text-transform:none;letter-spacing:0;overflow-wrap:anywhere}.legal-header-contacts .direct-contacts{font-size:9px;flex-direction:column;align-items:flex-end;gap:3px}.footer .direct-contacts{font-size:11px}.footer .footer-legal{font-size:12px}}
+@media(max-width:640px){.header-contacts{display:none}.header nav .mobile-partnership{display:flex;align-items:center;justify-content:space-between;color:var(--cyan);border-top:1px solid #29435c;margin-top:8px;padding-top:18px}.legal-header-contacts .direct-contacts{font-size:9px;flex-direction:column;align-items:flex-end;gap:3px}.footer .direct-contacts{font-size:11px}.footer .footer-legal{font-size:12px}}
 
 /* Mobile workflow: one continuous path, without an orphaned final step. */
 @media(max-width:640px){
