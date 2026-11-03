@@ -115,3 +115,15 @@
 }
 @keyframes rail-flow-vertical{0%{opacity:0;background-position:0 -70%}1%{opacity:1}11.43%{opacity:1;background-position:0 170%}12.5%,100%{opacity:0;background-position:0 170%}}
 @media(prefers-reduced-motion:reduce){.workflow-rail li:after,.workflow-rail li:first-child:after{display:none}.hero .actions .button:hover,.hero .actions .button:active{transform:none}}
+/* Partnership contact stack and compact footer shortcuts. */
+.contact-panel{gap:40px}
+.contact-actions{display:flex;flex-direction:column;align-items:flex-end;gap:18px;text-align:right}
+.cta-contacts{display:flex;flex-direction:column;align-items:flex-end;gap:8px}
+.cta-contacts a{display:inline-flex;align-items:center;gap:10px;min-height:36px;padding:5px 0;color:#b9d4e6;font:500 12px/1.6 var(--mono);transition:color .18s}
+.cta-contacts svg,.footer-contacts svg{width:18px;height:18px;flex-shrink:0;color:#38bdf8}
+.cta-contacts a:hover{color:var(--cyan)}
+.footer-contacts{display:flex;align-items:center;gap:8px;margin-left:auto}
+.footer-contacts a{display:grid;place-items:center;width:40px;height:40px;border:1px solid #2a435d;border-radius:5px;background:#0a1728;transition:border-color .18s,background-color .18s}
+.footer-contacts a:hover{background:#10273a;border-color:#38bdf8}
+@media(max-width:950px){.contact-panel{align-items:stretch}.contact-actions{align-self:flex-end}}
+@media(max-width:640px){.contact-panel{gap:24px}.contact-actions{align-self:stretch;align-items:stretch;text-align:left;gap:16px}.cta-contacts{align-items:stretch;gap:8px}.cta-contacts a{min-height:44px;padding:9px 12px;border:1px solid #29435c;border-radius:4px;background:#0b192a;font-size:11px}.footer{flex-direction:row;align-items:center;gap:16px}.footer nav{flex:1 1 230px;gap:14px}.footer-contacts{margin-left:0}.footer-contacts a{width:44px;height:44px}.footer .footer-legal{flex-basis:100%}}
