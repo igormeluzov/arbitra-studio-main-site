@@ -10,9 +10,10 @@
 @keyframes indicator-pulse{0%,100%{opacity:.75;box-shadow:0 0 7px #00f2fe70,0 0 13px #38bdf820}50%{opacity:1;box-shadow:0 0 11px #00f2fea0,0 0 20px #38bdf840}}
 .card-link{position:relative;z-index:1;font-family:var(--mono);font-weight:700;text-transform:uppercase;letter-spacing:.13em}
 .card-link span,.hero .actions .button>span{color:var(--cyan)}
-.hero .actions .button{position:relative;isolation:isolate;overflow:hidden;background:linear-gradient(105deg,#092f42,#10394e);color:#e4faff;border-color:#38bdf8;box-shadow:inset 0 0 20px #00f2fe0b,0 0 24px #00f2fe16}
+.hero .actions .button{position:relative;isolation:isolate;overflow:hidden;background:#0a1426;color:#ced8eb;border-color:#34546f;box-shadow:none;transform:none;transition:background-color .18s,border-color .18s,box-shadow .18s,transform .12s;-webkit-tap-highlight-color:transparent}
 .hero .actions .button.secondary{background:#0a1426;border-color:#34546f;color:#ced8eb;box-shadow:none}
-.hero .actions .button:hover{border-color:var(--cyan);box-shadow:0 0 25px #00f2fe25}
+@media(hover:hover) and (pointer:fine){.hero .actions .button:hover{background:#10283a;border-color:var(--cyan);box-shadow:0 0 20px #00f2fe20;transform:translateY(-2px)}}
+.hero .actions .button:active{background:#123849;border-color:var(--cyan);box-shadow:inset 0 0 16px #00f2fe18;transform:translateY(1px)}
 .hero .actions .button:before,.focus-card:after{content:'';position:absolute;z-index:-1;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120' fill='none'%3E%3Cpath d='m12 12 48 34 48-34' stroke='%2300F2FE' stroke-opacity='.35'/%3E%3Cpath d='m12 38 48 34 48-34' stroke='%2338BDF8' stroke-opacity='.24'/%3E%3Cpath d='m12 64 48 34 48-34' stroke='%2300F2FE' stroke-opacity='.12'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:center;background-size:contain}
 .hero .actions .button:before{width:100px;height:100px;right:6px;top:50%;transform:translateY(-50%);opacity:.24}
 .focus-card{isolation:isolate}
@@ -91,3 +92,26 @@
   .focus-card .card-top{margin-bottom:20px}
   .focus-card .card-link{padding-top:20px}
 }
+
+/* Official direct contacts and company attribution. */
+.direct-contacts{display:flex;flex-wrap:wrap;gap:8px 20px;font:500 11px/1.7 var(--mono);color:#8be8f1}
+.direct-contacts a:hover{color:var(--cyan);text-decoration:underline;text-underline-offset:4px}
+.header-contacts .direct-contacts{flex-direction:column;align-items:flex-end;gap:2px}
+.header nav .mobile-contact{display:none}
+.footer{flex-wrap:wrap;row-gap:18px}
+.footer .footer-legal{flex-basis:100%;font:400 12px/1.7 var(--sans);color:#b3c2d6;order:3;margin:0}
+@media(max-width:640px){.header-contacts{display:none}.header nav .mobile-contact{display:block;text-transform:none;letter-spacing:0;overflow-wrap:anywhere}.legal-header-contacts .direct-contacts{font-size:9px;flex-direction:column;align-items:flex-end;gap:3px}.footer .direct-contacts{font-size:11px}.footer .footer-legal{font-size:12px}}
+
+/* Mobile workflow: one continuous path, without an orphaned final step. */
+@media(max-width:640px){
+  .workflow-rail{grid-template-columns:minmax(0,1fr);gap:14px;padding:22px 24px}
+  .workflow-rail li{min-height:50px;padding:3px 0 0 59px;text-align:left;font-size:10px;line-height:1.9}
+  .workflow-rail li:last-child{grid-column:auto}
+  .workflow-rail li span{position:absolute;left:0;top:0;margin:0;width:39px;height:39px}
+  .workflow-rail li:before,.workflow-rail li:after{display:block;top:19px;left:19px;width:1px;height:calc(100% + 14px)}
+  .workflow-rail li:after{left:18.5px;width:2px;background-image:linear-gradient(180deg,transparent 0%,#38bdf820 35%,#00f2fe 50%,#38bdf820 65%,transparent 100%);background-size:100% 40%;background-position:0 -70%;animation-name:rail-flow-vertical;animation-delay:var(--node-delay)}
+  .workflow-rail li:first-child:before,.workflow-rail li:first-child:after{display:block}
+  .workflow-rail li:last-child:before,.workflow-rail li:last-child:after{display:none}
+}
+@keyframes rail-flow-vertical{0%{opacity:0;background-position:0 -70%}1%{opacity:1}11.43%{opacity:1;background-position:0 170%}12.5%,100%{opacity:0;background-position:0 170%}}
+@media(prefers-reduced-motion:reduce){.workflow-rail li:after,.workflow-rail li:first-child:after{display:none}.hero .actions .button:hover,.hero .actions .button:active{transform:none}}
